@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title>index.html</title>
+        <frame col=30,70 src=frame1.html></frame>
+    </head>
+    <body bgcolor=#00ffff onload="window.alert('Welcom back')">
+      <font size=20><h1>index</h1></font>
+      <br>
+      <a href=content1.html>content1</a>
+      <br>
+      <a href=content2.html>content2</a>
+      <br>
+      <iframe width="500" height="349" src="https://www.youtube.com/embed/Ig_ynoGJAm4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <br>
+      <a href="https://www.youtube.com/watch?time_continue=11&v=Ig_ynoGJAm4&feature=emb_logo" target="_blank"><img width="50",height="30" src=play2.jpg></a>
+    
+    </body>
+</html>
