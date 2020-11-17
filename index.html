@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>login.html</title>
+    </head>
+    <body bgcolor=#00ffff>
+        <script>
+            function login(){
+                if (myform.uname.value == "723adam"){
+                        if (myform.pwd.value == "123456"){
+                            //window.alert("login success")
+                            window.location.href="index.html"
+                        }
+                        else{
+                            window.alert("wrong passward")
+                        }
+                }
+                else{
+                    if (myform.uname.value == "adam723"){
+                        if (myform.pwd.value == "456123"){
+                            //window.alert("login success")
+                            window.location.href="index.html"
+                        }
+                        else{
+                            window.alert("wrong passward")
+                        }
+                    }
+                    else{
+                    window.alert("wrong username")
+                    }
+                }
+            }
+
+        </script>
+        <font size=20><h1>please login</h1></font>
+        <form name="myform">
+            username:<input type="text" name="uname" placeholder="name">
+            <p>
+            passward:<input type="password" name="pwd" placeholder="password">
+            <input type="Button" value="login" onclick="login()">
+
+        </form>
+    </body>
+</html>
